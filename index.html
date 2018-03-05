@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
 body {font-family: "Lato", sans-serif;
 background-color: black;
@@ -84,6 +85,18 @@ div.tab button.active {
 
 }
 
+#CenterImage
+{
+  margin:auto;
+  width:304px;
+  height:228px;
+}
+
+#CenterImage1
+{
+  margin:auto; 
+  height:228px;
+}
 
 /* Create two equal columns that floats next to each other */
 .column {
@@ -114,6 +127,23 @@ div.tab button.active {
     from {opacity: 0;}
     to {opacity: 1;}
 }
+
+@media only screen and (max-width: 500px) {
+  #CenterImage
+  {
+    margin:auto;
+    width:152px;
+    height:100px;
+  }
+  
+  #CenterImage1
+  {
+    margin:auto; 
+    height:100px;
+    width: 100px;
+  }
+}
+
 footer{
     color: white;
 }
@@ -121,9 +151,9 @@ footer{
 </head>
 <body>
 
-<img id ="CenterImage" src="Pictures/Logo.png" alt="Home Logo" style="margin:auto; width:304px;height:228px;">
-<img id ="CenterImage" src="Pictures/Collage.png" alt="Home Logo" style="margin:auto; height:228px;">
-<img id ="CenterImage" src="Pictures/Collage1.png" alt="Home Logo" style="margin:auto; height:228px;">
+<img id ="CenterImage" src="Pictures/Logo.png" alt="Home Logo" >
+<img id ="CenterImage1" src="Pictures/Collage.png" alt="Home Logo" >
+<img id ="CenterImage1" src="Pictures/Collage1.png" alt="Home Logo" >
 
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'Home')" id="open">Home</button>
