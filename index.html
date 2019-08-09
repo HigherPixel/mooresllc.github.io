@@ -2,192 +2,35 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-<style>
-body {font-family: "Lato", sans-serif;
-background-color: black;
-}
 
-/* Style the tab */
-div.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
-
-/* Style the buttons inside the tab */
-div.tab button {
-   
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-div.tab button:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-div.tab button.active {
-    background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    background-color: gray;
-    
-    
-    color: black;
-    padding: 6px 12px;
-    -webkit-animation: fadeEffect 1s;
-    animation: fadeEffect 1s;
-}
-.rotate90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-.slideshow-container
-{
-    text-align: center;
-}
-
-.content-panel{
-  overflow: auto; /* keep the float contained within this panel */
-  border: 1px dotted blue;
-}
-.thumb-panel {
-  float: left;
-  width: 100px;
-  border: 1px solid gray;
-  text-align: center;
-  margin-right: 20px; /* for example */
-}
-.thumb-panel img {
-  display: inline-block;
-  margin-bottom: 20px; /* for example */
-}
-.thumb-panel button{
-  display: inline-block;
-  margin-bottom: 20px;
-}
-.text-panel {
-  overflow: auto; /* prevents text flow wrapping around floated panel */
-  border: 1px solid gray;
-
-}
-
-#CenterImage
-{
-  margin:auto;
-  width:304px;
-  height:228px;
-}
-
-#CenterImage1
-{
-  margin:auto; 
-  height:228px;
-}
-
-#BA
-{
-  margin:0 auto; width:400px; height:400px; display: block;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 50%;
-    padding-bottom: 20px;
-}
-
-.column img {
-    margin-top: 12px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/* Fade in tabs */
-@-webkit-keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-@keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-@media only screen and (max-width: 850px) {
-  #CenterImage
-  {
-    margin:auto;
-    width:85px;
-    height:100px;
-  }
-  
-  #CenterImage1
-  {
-    margin:auto; 
-    height:100px;
-    width: 100px;
-  }
-
-  #BA
-  {
-    margin:0 auto; width:125px; height:125px; display: block;
-  }
-  div.tab button 
-  {
-    
-      float: left;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      padding: 7px 8px;
-      transition: 0.3s;
-      font-size: 8.5px;
-  }
-}
-
-footer{
-    color: white;
-}
-</style>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+<marquee behavior="scroll" direction="left" scrollamount="15">
+    <img id ="CenterImage" src="Pictures/Logo.png" alt="Home Logo" >
+    <img id ="CenterImage1" src="Pictures/Collage.png">
+     <img id ="CenterImage1" src="Pictures/Collage1.png">
+     <img id ="CenterImage1" src="bathroom/BeFunky Collage.jpg">
+     <img id ="CenterImage" src="Pictures/Logo.png" alt="Home Logo" >
 
-<img id ="CenterImage" src="Pictures/Logo.png" alt="Home Logo" >
-<img id ="CenterImage1" src="Pictures/Collage.png" alt="Home Logo" >
-<img id ="CenterImage1" src="Pictures/Collage1.png" alt="Home Logo" >
-
+</marquee>
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'Home')" id="open">Home</button>
   <button class="tablinks" onclick="openCity(event, 'Interior Painting')" id="open">Interior Painting</button>
   <button class="tablinks" onclick="openCity(event, 'Exterior Painting')" id="open">Exterior Painting</button>
-  <button class="tablinks"   onclick="openCity(event, 'Industial Painting')">Industial Painting</button>
+  <!--<button class="tablinks"   onclick="openCity(event, 'Industial Painting')">Industial Painting</button>-->
   <button class="tablinks" onclick="openCity(event, 'Bath Room')">Bathroom Remodel</button>
   <button class="tablinks" onclick="openCity(event, 'Flooring')">Flooring</button>
 </div>
 
 
-<div id="Home" class="tabcontent">
-  <h3>Mission Statement</h3>
+<div id="Home" class="tabcontent container">
+  <h1 style = "text-align: center"><u>Mission Statement</u></h1>
   <p style="font-size:160%;">Moore's Painting LLC is a residential and commercial painting company whose owner has been serving Northeast and Northwest Louisiana for the past four years, Located in Ruston, La.</p>
   <br />
   <p style="font-size:160%;">The owner, Nicholas Moore, has 15 years of experience. We are licensed, insured, and registered with the Secretary of State. We look forward to serving your home and business needs. We strive to provide service of excellence!</p>
@@ -197,7 +40,6 @@ footer{
   <img class="mySlides" src="Pictures/After2.jpg" id="BA"  >
   <img class="mySlides" src="kicthen/127.jpg" id="BA" >
   <img class="mySlides" src="flooring/tile/42.jpg" id="BA"  >
-  <img class="mySlides" src="industrual/342.jpg" id="BA"  >
   <img class="mySlides" src="Pictures/After6.jpg" id="BA"  >
   <img class="mySlides" src="flooring/Banboo/134.jpg" id="BA"  >
   <img class="mySlides" src="flooring/LvT/20160702_172451.jpg" id="BA"  >
@@ -210,48 +52,48 @@ footer{
 
 
 
-  <div id="Exterior Painting" class="tabcontent">
-  <h1 style ="text-align: center;" >Exterior Painting</h1>
+  <div id="Exterior Painting" class="tabcontent container">
+  <h1 style ="text-align: center;" ><u>Exterior Painting</u></h1>
     <div class="row"style="background-color: #aaa;">
-    <h3 style="text-align: center">Home 1</h3>
+    <h2 style="text-align: center">Home 1</h2>
     <div class="column" >
-      <h2 style="text-align: center">Before 1</h2>
+      <h3 style="text-align: center">Before</h3>
       <img src="ExteriorPaint/House3/B1.jpg" id="BA" >
     </div>
     <div class="column" >
-      <h2 style="text-align: center">After 1</h2>
+      <h2 style="text-align: center">After</h2>
       <img src="ExteriorPaint/House3/A1.jpg" id="BA" >
     </div>
   </div>
   <div class="row"style="background-color: #aaa;">
-    <h3 style="text-align: center">Home 2</h3>
+    <h2 style="text-align: center">Home 2</h2>
     <div class="column">
-      <h2 style="text-align: center">Before 1</h2>
+      <h2 style="text-align: center">Before</h2>
       <img  src="ExteriorPaint/House5/B1.jpg" id="BA" >
     </div>
     <div class="column">
-      <h2 style="text-align: center">After 1</h2>
+      <h2 style="text-align: center">After</h2>
       <img  src="ExteriorPaint/House5/A1.jpg" id="BA" >
     </div>
   </div>
   <div class="row"style="background-color: #aaa;">
-    <h3 style="text-align: center">Home 3</h3>
+    <h2 style="text-align: center">Home 3</h2>
     <div class="column">
-      <h2 style="text-align: center">Before 1</h2>
+      <h2 style="text-align: center">Before</h2>
       <img  src="ExteriorPaint/House6/B1.jpg" id="BA" >
     </div>
     <div class="column">
-      <h2 style="text-align: center">After 1</h2>
+      <h2 style="text-align: center">After</h2>
       <img  src="ExteriorPaint/House6/A1.jpg" id="BA" >
     </div>
   </div>
   </div>
 
 
-  <div id="Industial Painting" class="tabcontent">
+  <div id="Industial Painting" class="tabcontent container">
     <h1 style ="text-align: center;" >Industial Painting</h1>
     <div class="row"style="background-color: #aaa;">
-    <h3 style="text-align: center">Site 1</h3>
+    <h2 style="text-align: center">Site 1</h2>
     <div class="column" >
       <h2 style="text-align: center">Before 1</h2>
       <img src="industrual/Example 1/B1.jpg" id="BA" >
@@ -270,7 +112,7 @@ footer{
     </div>
     </div>
     <div class="row"style="background-color: #aaa;">
-    <h3 style="text-align: center">Site 2</h3>
+    <h2 style="text-align: center">Site 2</h2>
     <div class="column" >
       <h2 style="text-align: center">Before 1</h2>
       <img src="industrual/Example 2/B1.jpg" id="BA" >
@@ -281,7 +123,7 @@ footer{
     </div>
     </div>
   <div class="row"style="background-color: #aaa;">
-    <h3 style="text-align: center">Site 3</h3>
+    <h2 style="text-align: center">Site 3</h2>
     <div class="column" >
       <h2 style="text-align: center">Before 1</h2>
       <img src="industrual/Example 4/B1.jpg" id="BA" >
@@ -292,7 +134,7 @@ footer{
     </div>
   </div>
   <div class="row"style="background-color: #aaa;">
-<h3 style="text-align: center">Site 4</h3>
+<h2 style="text-align: center">Site 4</h2>
     <div class="column" >
       <h2 style="text-align: center">Before 1</h2>
       <img src="industrual/Example 9/B1.jpg" id="BA" >
@@ -306,76 +148,76 @@ footer{
   
   </div>
     </div>
-  <div id="Bath Room" class="tabcontent">
-    <h1 style ="text-align: center;" >Bathroom Remodel</h1>
+  <div id="Bath Room" class="tabcontent container">
+    <h1 style ="text-align: center;" ><u>Bathroom Remodel</u></h1>
     <div class="row"style="background-color: #aaa;">
-    <h3 style="text-align: center">Home 1</h3>
+    <h2 style="text-align: center">Home 1</h2>
     <div class="column" >
-      <h2 style="text-align: center">Before 1</h2>
+      <h3 style="text-align: center">Before </h3>
       <img src="bathroom/House 2/B1.jpg" class="rotate90" id="BA" >
     </div>
     <div class="column" >
-      <h2 style="text-align: center">After 1</h2>
+      <h3 style="text-align: center">After </h3>
       <img src="bathroom/House 2/A1.jpg" class="rotate90" id="BA" >
     </div>
   </div>
   <div class="row"style="background-color: #aaa;">
-    <h3 style="text-align: center">Home 2</h3>
+    <h2 style="text-align: center">Home 2</h2>
     <div class="column">
-      <h2 style="text-align: center">Before 1</h2>
+      <h3 style="text-align: center">Before </h3>
       <img  src="bathroom/House 1/B1.jpg" id="BA" >
     </div>
     <div class="column">
-      <h2 style="text-align: center">After 1</h2>
+      <h2 style="text-align: center">After </h2>
       <img  src="bathroom/House 1/A1.jpg" id="BA" >
     </div>
   </div>
   <div class="row"style="background-color: #aaa;">
-    <h3 style="text-align: center">Home 3</h3>
+    <h2 style="text-align: center">Home 3</h2>
     <div class="column">
-      <h2 style="text-align: center">Before 1</h2>
+      <h3 style="text-align: center">Before </h3>
       <img  src="bathroom/House 4/B1.jpg" class="rotate90" id="BA" >
     </div>
     <div class="column">
-      <h2 style="text-align: center">After 1</h2>
+      <h3 style="text-align: center">After </h3>
       <img  src="bathroom/House 4/A1.jpg" id="BA" >
     </div>
   </div>
   </div>
 
 
-  <div id="Flooring" class="tabcontent">
-    <h1 style ="text-align: center;" >Flooring</h1>
+  <div id="Flooring" class="tabcontent container">
+    <h1 style ="text-align: center;" ><u>Flooring</u></h1>
     <div class="row"style="background-color: #aaa;">
-    <h3 style="text-align: center">House 1</h3>
+    <h2 style="text-align: center">House 1</h2>
     <div class="column" >
-      <h2 style="text-align: center">Before 1</h2>
+      <h3 style="text-align: center">Before </h3>
       <img src="flooring/Banboo/House 1/B1.jpg" class="rotate90" id="BA" >
     </div>
     <div class="column" >
-      <h2 style="text-align: center">After 1</h2>
+      <h3 style="text-align: center">After </h3>
       <img src="flooring/Banboo/House 1/A1.jpg" class="rotate90" id="BA" >
     </div>
     </div>
     <div class="row"style="background-color: #aaa;">
-    <h3 style="text-align: center">House 2</h3>
+    <h2 style="text-align: center">House 2</h2>
     <div class="column" >
-      <h2 style="text-align: center">Before 1</h2>
+      <h3 style="text-align: center">Before </h3>
       <img src="flooring/Banboo/House 4/B1.jpg" id="BA" >
     </div>
     <div class="column" >
-      <h2 style="text-align: center">After 1</h2>
+      <h3 style="text-align: center">After </h3>
       <img src="flooring/Banboo/House 4/A1.jpg" id="BA" >
     </div>
     </div>
   <div class="row"style="background-color: #aaa;">
-    <h3 style="text-align: center">House 2</h3>
+    <h2 style="text-align: center">House 2</h2>
     <div class="column" >
-      <h2 style="text-align: center">Before 1</h2>
+      <h3 style="text-align: center">Before </h3>
       <img src="flooring/Banboo/House 5/B1.jpg" id="BA" >
     </div>
     <div class="column" >
-      <h2 style="text-align: center">After 1</h2>
+      <h3 style="text-align: center">After </h3>
       <img src="flooring/Banboo/House 5/A1.jpg" id="BA" >
     </div>
     </div>
@@ -383,53 +225,53 @@ footer{
     
   </div>
 
-  <div id="Kitchen" class="tabcontent">
-    <h3>Mission Statement</h3>
+  <div id="Kitchen" class="tabcontent container">
+    <h2>Mission Statement</h2>
     
     </div>
 
     </div>
 
-    <div id="Interior Painting" class="tabcontent">
-    <h1 style ="text-align: center;" >Interior Painting</h1>
+    <div id="Interior Painting" class="tabcontent container">
+    <h1 style ="text-align: center;" ><u>Interior Painting</u></h1>
     <div class="row"style="background-color: #aaa;">
-    <h3 style="text-align: center">Home 1</h3>
+    <h2 style="text-align: center">Home 1</h2>
     <div class="column" >
-      <h2 style="text-align: center">Before 1</h2>
+      <h3 style="text-align: center">Before </h3>
       <img src="InterPainting/House2/B2.jpg" id="BA" >
     </div>
     <div class="column" >
-      <h2 style="text-align: center">After 1</h2>
+      <h3 style="text-align: center">After </h3>
       <img src="InterPainting/House2/A2.jpg" id="BA" >
     </div>
     <div class="column" >
-      <h2 style="text-align: center">Before 2</h2>
+      <h3 style="text-align: center">Before </h3>
       <img  src="InterPainting/House2/B4.jpg" id="BA" >
     </div>
     <div class="column" >
-      <h2 style="text-align: center">After 2</h2>
+      <h3 style="text-align: center">After </h3>
       <img src="InterPainting/House2/A1.jpg" id="BA" >
     </div>
   </div>
   <div class="row"style="background-color: #aaa;">
-    <h3 style="text-align: center">Home 2</h3>
+    <h2 style="text-align: center">Home 2</h2>
     <div class="column">
-      <h2 style="text-align: center">Before 1</h2>
+      <h3 style="text-align: center">Before </h3>
       <img  src="InterPainting/House7/B1.jpg" id="BA" >
     </div>
     <div class="column">
-      <h2 style="text-align: center">After 1</h2>
+      <h3 style="text-align: center">After</h3>
       <img  src="InterPainting/House7/A1.jpg" id="BA" >
     </div>
   </div>
   <div class="row"style="background-color: #aaa;">
-    <h3 style="text-align: center">Home 3</h3>
+    <h2 style="text-align: center">Home 3</h2>
     <div class="column">
-      <h2 style="text-align: center">Before 1</h2>
+      <h3 style="text-align: center">Before </h3>
       <img  src="InterPainting/House8/B1.jpg" id="BA" >
     </div>
     <div class="column">
-      <h2 style="text-align: center">After 1</h2>
+      <h3 style="text-align: center">After </h3>
       <img  src="InterPainting/House8/A1.jpg"id="BA" >
     </div>
   </div>
