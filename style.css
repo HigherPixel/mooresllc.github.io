@@ -116,6 +116,11 @@ body {font-family: "Lato", sans-serif;
     .column img {
         margin-top: 12px;
     }
+    .row{
+      border: 10px solid grey;
+      margin-right: -15px !important;
+      margin-left: -16px !important;
+    }
     
     /* Clear floats after the columns */
     .row:after {
@@ -168,7 +173,8 @@ body {font-family: "Lato", sans-serif;
       }
     }
     
-    pre {border: 0;
+    pre {
+      border: 0;
        background-color: transparent;
       }
 
