@@ -13,5 +13,11 @@
     }
   ],
   "LogoLocation": "/Pictures/Logo.png",
-  "CompanyName" : "Moore's Painting LLC"
+  "CompanyName" : "Moore's Painting LLC",
+  "Contact":{
+    "PhoneNumber":"318-529-8945",
+    "Facebook":"https://www.facebook.com/moores-painting-llc-163754887158133/",
+    "Email":"moorespaintingllc1@yahoo.com",
+    "Name": "Nick Moore"
+  }
 }
