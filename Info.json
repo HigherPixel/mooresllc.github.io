@@ -26,6 +26,8 @@
     }
   ],
   "LogoLocation": "/Pictures/Logo.png",
+  "Collage1" : "/Pictures/Collage.png",
+  "Collage2" : "/Pictures/Collage1.png",
   "CompanyName": "Moore's Painting LLC",
   "Contact": {
     "PhoneNumber": "318-529-8945",
