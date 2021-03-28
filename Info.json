@@ -4,7 +4,6 @@
       "InterPainting": {
         "Houses": [
           {
-            "House1": {
               "Before": [
                 "InterPainting/House2/B2.jpg",
                 "InterPainting/House2/B4.jpg"
@@ -13,21 +12,18 @@
                 "InterPainting/House2/A2.jpg",
                 "InterPainting/House2/A1.jpg"
               ]
-            }
           }
         ]
       },
       "Bathroom": {
         "Houses": [
           {
-            "House1": {
               "Before": [
                 "bathroom/House 2/B1.jpg"
               ],
               "After": [
                 "bathroom/House 2/A1.jpg"
               ]
-            }
           }
         ]
       }
