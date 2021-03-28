@@ -1,7 +1,7 @@
 {
   "Jobs": [
     {
-      "InterPainting": {
+      "Interior Painting": {
         "Houses": [
           {
               "Before": [
@@ -15,7 +15,35 @@
           }
         ]
       },
-      "Bathroom": {
+      "Exterior Painting": {
+        "Houses": [
+          {
+              "Before": [
+                "InterPainting/House2/B2.jpg",
+                "InterPainting/House2/B4.jpg"
+              ],
+              "After": [
+                "InterPainting/House2/A2.jpg",
+                "InterPainting/House2/A1.jpg"
+              ]
+          }
+        ]
+      },
+      "Flooring": {
+        "Houses": [
+          {
+              "Before": [
+                "InterPainting/House2/B2.jpg",
+                "InterPainting/House2/B4.jpg"
+              ],
+              "After": [
+                "InterPainting/House2/A2.jpg",
+                "InterPainting/House2/A1.jpg"
+              ]
+          }
+        ]
+      },
+      "Bathroom Remodeling": {
         "Houses": [
           {
               "Before": [
