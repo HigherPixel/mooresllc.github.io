@@ -24,6 +24,22 @@
               "After": [
                 "bathroom/House 2/A1.jpg"
               ]
+          },
+          {
+              "Before": [
+                "bathroom/House 1/B1.jpg"
+              ],
+              "After": [
+                "bathroom/House 1/A1.jpg"
+              ]
+          },
+          {
+              "Before": [
+                "bathroom/House 4/B1.jpg"
+              ],
+              "After": [
+                "bathroom/House 4/A1.jpg"
+              ]
           }
         ]
       }
