@@ -2,32 +2,38 @@
   "Jobs": [
     {
       "InterPainting": {
-        "House1": {
-          "Before": [
-            "InterPainting/House2/B2.jpg",
-            "InterPainting/House2/B4.jpg"
-          ],
-          "After": [
-            "InterPainting/House2/A2.jpg",
-            "InterPainting/House2/A1.jpg"
-          ]
-        }
+        "Houses": [
+          {
+            "House1": {
+              "Before": [
+                "InterPainting/House2/B2.jpg",
+                "InterPainting/House2/B4.jpg"
+              ],
+              "After": [
+                "InterPainting/House2/A2.jpg",
+                "InterPainting/House2/A1.jpg"
+              ]
+            }
+          }
+        ]
       },
       "Bathroom": {
-        "House1": {
-          "Before": [
-            "bathroom/House 2/B1.jpg"
-          ],
-          "After": [
-            "bathroom/House 2/A1.jpg"
-          ]
-        }
+        "Houses": [
+          {
+            "House1": {
+              "Before": [
+                "bathroom/House 2/B1.jpg"
+              ],
+              "After": [
+                "bathroom/House 2/A1.jpg"
+              ]
+            }
+          }
+        ]
       }
     }
   ],
   "LogoLocation": "/Pictures/Logo.png",
-  "Collage1" : "/Pictures/Collage.png",
-  "Collage2" : "/Pictures/Collage1.png",
   "CompanyName": "Moore's Painting LLC",
   "Contact": {
     "PhoneNumber": "318-529-8945",
