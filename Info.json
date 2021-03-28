@@ -4,78 +4,122 @@
       "Interior Painting": {
         "Houses": [
           {
-              "Before": [
-                "InterPainting/House2/B2.jpg",
-                "InterPainting/House2/B4.jpg"
-              ],
-              "After": [
-                "InterPainting/House2/A2.jpg",
-                "InterPainting/House2/A1.jpg"
-              ]
+            "Before": [
+              "InterPainting/House2/B2.jpg",
+              "InterPainting/House2/B4.jpg"
+            ],
+            "After": [
+              "InterPainting/House2/A2.jpg",
+              "InterPainting/House2/A1.jpg"
+            ]
+          },
+          {
+            "Before": [
+              "InterPainting/House7/B1.jpg"
+            ],
+            "After": [
+              "InterPainting/House7/A1.jpg"
+            ]
+          },
+          {
+            "Before": [
+              "InterPainting/House8/B1.jpg"
+            ],
+            "After": [
+              "InterPainting/House8/A1.jpg"
+            ]
           }
         ]
       },
       "Exterior Painting": {
         "Houses": [
           {
-              "Before": [
-                "InterPainting/House2/B2.jpg",
-                "InterPainting/House2/B4.jpg"
-              ],
-              "After": [
-                "InterPainting/House2/A2.jpg",
-                "InterPainting/House2/A1.jpg"
-              ]
+            "Before": [
+              "ExteriorPaint/House3/B1.jpg"
+            ],
+            "After": [
+              "ExteriorPaint/House3/A1.jpg"
+            ]
+          },
+          {
+            "Before": [
+              "ExteriorPaint/House5/B1.jpg"
+            ],
+            "After": [
+              "ExteriorPaint/House5/A1.jpg"
+            ]
+          },
+          {
+            "Before": [
+              "ExteriorPaint/House6/B1.jpg"
+            ],
+            "After": [
+              "ExteriorPaint/House6/A1.jpg"
+            ]
           }
         ]
       },
       "Flooring": {
         "Houses": [
           {
-              "Before": [
-                "InterPainting/House2/B2.jpg",
-                "InterPainting/House2/B4.jpg"
-              ],
-              "After": [
-                "InterPainting/House2/A2.jpg",
-                "InterPainting/House2/A1.jpg"
-              ]
+            "Before": [
+              "flooring/Banboo/House 1/B1.jpg"
+            ],
+            "After": [
+              "flooring/Banboo/House 1/A1.jpg"
+            ]
+          },
+          {
+            "Before": [
+              "flooring/Banboo/House 4/B1.jpg"
+            ],
+            "After": [
+              "flooring/Banboo/House 4/A1.jpg"
+            ]
+          },
+          {
+            "Before": [
+              "flooring/Banboo/House 5/B1.jpg"
+            ],
+            "After": [
+              "flooring/Banboo/House 5/A1.jpg"
+            ]
           }
         ]
       },
       "Bathroom Remodeling": {
         "Houses": [
           {
-              "Before": [
-                "bathroom/House 2/B1.jpg"
-              ],
-              "After": [
-                "bathroom/House 2/A1.jpg"
-              ]
+            "Before": [
+              "bathroom/House 2/B1.jpg"
+            ],
+            "After": [
+              "bathroom/House 2/A1.jpg"
+            ]
           },
           {
-              "Before": [
-                "bathroom/House 1/B1.jpg"
-              ],
-              "After": [
-                "bathroom/House 1/A1.jpg"
-              ]
+            "Before": [
+              "bathroom/House 1/B1.jpg"
+            ],
+            "After": [
+              "bathroom/House 1/A1.jpg"
+            ]
           },
           {
-              "Before": [
-                "bathroom/House 4/B1.jpg"
-              ],
-              "After": [
-                "bathroom/House 4/A1.jpg"
-              ]
+            "Before": [
+              "bathroom/House 4/B1.jpg"
+            ],
+            "After": [
+              "bathroom/House 4/A1.jpg"
+            ]
           }
         ]
       }
     }
   ],
   "LogoLocation": "/Pictures/Logo.png",
-  "Collage1" : "/Pictures/Collage.png",
-  "Collage2" : "/Pictures/Collage1.png",
+  "Collage1": "/Pictures/Collage.png",
+  "Collage2": "/Pictures/Collage1.png",
   "CompanyName": "Moore's Painting LLC",
   "Contact": {
     "PhoneNumber": "318-529-8945",
