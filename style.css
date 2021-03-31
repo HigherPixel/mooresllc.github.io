@@ -1,10 +1,12 @@
 body {font-family: "Lato", sans-serif;
     background-color:grey !important;
     background: black;
+    color: white;
     }
     marquee{
         border: 5px solid rgb(0, 0, 0);
         background-color: lightgrey;
+        text-color
     }
     /* Style the tab */
     div.tab {
